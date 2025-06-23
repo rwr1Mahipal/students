@@ -1,0 +1,190 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  width: 100%;
+  /* height: 100vh; */
+}
+nav {
+  /* width: 100%; */
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  background-color: #ffffff9c;
+  padding: 10px 15px;
+  align-items: center;
+  position: fixed;
+  z-index: 1;
+  left: 10px;
+  right: 10px;
+  top: 10px;
+  border-radius: 50px;
+  backdrop-filter: blur(2px);
+}
+.nav-link {
+  display: flex;
+  gap: 15px;
+}
+.nav-link a {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  font-size: 20px;
+}
+.nav-btn {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+
+.nav-btn input {
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.leading-page {
+  width: 100%;
+}
+
+.leading-page video {
+  width: 100%;
+  height: 800px;
+  object-fit: cover;
+  /* opacity: 0.8; */
+  filter: blur(2px);
+  position: relative;
+}
+
+.leading-text {
+  width: 100%;
+  position: absolute;
+  bottom: 130px;
+  text-align: center;
+  margin-block: 15px;
+}
+
+.leading-text h1 {
+  font-size: 100px;
+  color: white;
+}
+.leading-page p {
+  font-size: 20px;
+  color: rgba(255, 255, 255, 0.819);
+  margin-block: 15px;
+}
+.leading-page button {
+  padding: 15px 20px;
+  background: transparent;
+  border: 1px solid white;
+  color: white;
+}
+
+.leading-page button:hover {
+  background-color: white;
+  color: black;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  margin-block: 30px;
+}
+.text h1 {
+  font-size: 70px;
+  font-weight: 300 !important;
+}
+
+.product-container {
+  display: flex;
+  gap: 10px;
+  padding-inline: 40px;
+  width: 100%;
+  height: 100%;
+  margin-block: 50px;
+}
+
+.pro-sub-container {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  width: 100%;
+  height: 100%;
+}
+.pro-sub-img {
+  width: 100%;
+  height: 500px;
+  overflow: hidden;
+}
+
+.pro-sub-img img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.pro-sub-img img:hover {
+  transform: translateY(-50px);
+  transform: scale(1.1);
+  transition: all 1s;
+}
+
+.btn button {
+  padding: 15px 20px;
+  background: transparent;
+  border: 1px solid white;
+  color: white;
+}
+
+.btn button:hover {
+  background-color: white;
+  color: black;
+}
+
+input {
+  border: none;
+}
+
+input:focus {
+  outline: none;
+}
+
+footer {
+  background: black;
+  height: 50vh;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 10em;
+  padding-inline: 30px;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: center;
+  gap: 50em;
+}
+.fotter-main{
+  display: flex;
+  gap: 10rem;
+}
+
+.footer-content{
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.footer-links ul li{
+  list-style: none;
+}
+
+/* .footer-hr{
+  justify-content: end;
+  display: flex;
+  flex-direction: column;
+} */
